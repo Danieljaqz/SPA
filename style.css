@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	background-color: #282b2c;
+	height: 80px;
+}
+
+
+#header h1 a {
+	text-decoration: none;
+	color: white;
+}
+
+#header h1 {
+	display: inline-block;
+	margin-top: 20px;
+	float: left;
+}
+
+#header h2 {
+	display: inline-block;
+	float: right;
+	background-color: #5895DB;
+	border-radius: 3px;
+	padding: 8px 18px;
+	margin-top: 20px;
+}
+
+#header h2 a {
+	text-decoration: none;
+	color: white;
+	padding: 12px 18px;
+}
+
+.container {
+	width: 90%;
+	margin-left: 5%;
+	text-align: center;
+}
+
+.filters {
+	width: 160px;
+	border: 1px solid #DBE3E7;
+	padding: 15px 30px 30px;
+	box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.08);
+	background-color: #FFF;
+	display: inline-block;
+	float: left;
+	text-align: left;
+}
+
+.filters form input {
+
+}
+
+.products {
+	margin-top: 50px;
+	margin-left: 165px;
+	width: 80%;
+	position: relative;
+}
+.productList {
+	text-align: center;
+	position: relative;
+	margin-top: 50px;
+	margin-left: 105px;
+	width: 80%;
+	position: relative;
+}
+
+.productList li {
+	display: inline-block;
+
+}
+
+.productList ul li {
+
+	padding: px;
+}
+
+.products ul li img {
+	width: 71px;
+	height: 130px;
+}
+
+.productPhoto {
+	width: 275px;
+	height: 173px;
+	text-align: center;
+	box-shadow: 0 0 20px 8px #f3f3f3 inset;
+}
+
+.products ul li {
+	font-size: 17px;
+	padding: 1px 0px;
+	margin: 0px 0px 12px 12px;
+}
+
+.products ul li {
+	border: 1px solid #DBE3E7;
+	box-shadow: 1px 3px 1px rgba(s0, 0, 0, 0.08);
+}
+.products ul li h2 {
+	margin: 15px 0px;
+}
+
+span {
+	font-weight: bold;
+}
+
+.productList button {
+	border-radius: 2px;
+	background-color: #87bae1;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+	border: 0;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 16px;
+	width: 95px;
+	height: 32px;
+	cursor: pointer;
+}
+
+.filterCriteria button {
+	border-radius: 2px;
+	background-color: #4BC34B;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	cursor: pointer;
+	width: 95px;
+	height: 32px;
+	margin-top: 10px;
+}
+
+.filterCriteria form input {
+	margin: 6px;
+}
+
+.filterCriteria span {
+	font-size: 16px;
+	display: block;
+	margin-bottom: 12px;
+	margin-top: 20px;
+}
+
+.hide {
+	opacity: 0.4;
+
+}

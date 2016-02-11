@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title> My SPA</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+	<div id='header'>
+		<div class="container">
+			<h1> <a href="#">Single Page App Without A Framework</a></h1>
+			<h2><a href="#">HOME</a></h2>
+		</div>
+	</div>
+
+	<div class="container">
+
+		<div class="filters">
+			<div class="filterCriteria">
+				<span><strong>Manufacturer</strong></span><br>
+				<form>
+					<input type="checkbox" name="phones" value="Apple">Apple<br>
+					<input type="checkbox" name="phones" value="Samsung">Samsung<br>
+					<input type="checkbox" name="phones" value="HTC">HTC<br>
+					<input type="checkbox" name="phones" value="Nokia">Nokia<br>
+					<input type="checkbox" name="phones" value="ZTE">ZTE<br>
+					<input type="checkbox" name="phones" value="Sony">Sony<br>
+				</form>
+				<div class="filterCriteria">
+					<span><strong> Screen Size</strong></span>
+					<form>
+						<input type="checkbox" name="Memory" value="size">16 GB<br>
+						<input type="checkbox" name="Memory" value="size">32 GB<br>
+					</form>
+				</div>
+				<div class="filterCriteria">
+					<span><strong>OS</strong></span>
+					<form>
+						<input type="checkbox" name="os">Andriod<br>
+						<input type="checkbox" name="os">iOS<br>
+						<input type="checkbox" name="os">Windows<br>
+					</form>
+				</div>
+				<div class="filterCriteria">
+					<span><strong>Camera</strong></span>
+					<form>
+						<input type="checkbox" name="mp">5 Mpx<br>
+						<input type="checkbox" name="mp">8 Mpx<br>
+						<input type="checkbox" name="mp">12 Mpx<br>
+						<input type="checkbox" name="mp">15 Mpx<br>
+					</form>
+					<button>Clear filters</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="products">
+			<ul class="productList">
+				<li class="sonyXperiaZ3">
+					<div class="productPhoto"><img src="photos/sony-xperia-z3.jpg"></div>
+					<h2>Sony Xperia Z3</h2>
+					<ul class="productDescription">
+						<li> <span>Manufacturer:</span>Sony</li><br>
+						<li> <span>Storage:</span>16 GB</li>
+						<li> <span>OS:</span>Android</li><br>
+						<li> <span>Camera:</span>15 Mpx</li>
+					</ul>
+					<button id="sonyXperiaZ3-buyButton">Buy Now!</button>
+					<p class="productPrice">$899</p>
+				</li>
+				<li class="Iphone6">
+					<div class="productPhoto"><img src="photos/iphone6.jpg"></div>
+					<h2>Iphone 6</h2>
+					<ul class="productDescription">
+						<li> <span>Manufacturer:</span>Apple</li><br>
+						<li> <span>Storage:</span>16 GB</li>
+						<li> <span>OS:</span>iOS</li><br>
+						<li> <span>Camera:</span>8 Mpx</li>
+					</ul>
+					<button>Buy Now!</button>
+					<p class="productPrice">$899</p>
+				</li>
+				<li class="htcOneM9">
+					<div class="productPhoto"><img src="photos/htc-one.jpg"></div>
+					<h2>HTC One M8</h2>
+					<ul class="productDescription">
+						<li> <span>Manufacturer:</span>HTC</li><br>
+						<li> <span>Storage:</span>32 GB</li>
+						<li> <span>OS:</span>Android</li><br>
+						<li> <span>Camera:</span>5 Mpx</li>
+					</ul>
+					<button>Buy Now!</button>
+					<p class="productPrice">$899</p>
+				</li>
+				<li class="galaxyAlpha">
+					<div class="productPhoto"><img src="photos/galaxy-alpha.jpg"></div>
+					<h2>Samsung</h2>
+					<ul class="productDescription">
+						<li> <span>Manufacturer:</span>Samsung</li><br>
+						<li> <span>Storage:</span>32 GB</li>
+						<li> <span>OS:</span>Android</li><br>
+						<li> <span>Camera:</span>12 Mpx</li>
+					</ul>
+					<button>Buy Now!</button>
+					<p class="productPrice">$899</p>
+				</li>
+				<li class="nokiaLumia">
+					<div class="productPhoto"><img src="photos/nokia-lumia.jpg"></div>
+					<h2>Nokia Lumia</h2>
+					<ul class="productDescription">
+						<li> <span>Manufacturer:</span>Nokia</li><br>
+						<li> <span>Storage:</span>16 GB</li>
+						<li> <span>OS:</span>Windows</li><br>
+						<li> <span>Camera:</span>5 Mpx</li>
+					</ul>
+					<button>Buy Now!</button>
+					<p class="productPrice">$450</p>
+				</li>
+				<li class="Zte Nubia">
+					<div class="productPhoto"><img src="photos/zte-nubia.jpg"></div>
+					<h2>Zte Nubia</h2>
+					<ul class="productDescription">
+						<li> <span>Manufacturer:</span>Zte</li><br>
+						<li> <span>Storage:</span>32 GB</li>
+						<li> <span>OS:</span>Android</li><br>
+						<li> <span>Camera:</span>12 Mpx</li>
+					</ul>
+					<button>Buy Now!</button>
+					<p class="productPrice">$399</p>
+				</li>
+				<li class="samsungGalaxyS5">
+					<div class="productPhoto"><img src="photos/galaxy-s5.jpg"></div>
+					<h2>Samsung Galaxy S5</h2>
+					<ul class="productDescription">
+						<li> <span>Manufacturer:</span>Samsung</li><br>
+						<li> <span>Storage:</span>16 GB</li>
+						<li> <span>OS:</span>Android</li><br>
+						<li> <span>Camera:</span>15 Mpx</li>
+					</ul>
+					<button>Buy Now!</button>
+					<p class="productPrice">$499</p>
+				</li>
+				<li class="iphone 5s">
+					<div class="productPhoto"><img src="photos/iphone5s.jpg"></div>
+					<h2>Iphone 5s</h2>
+					<ul class="productDescription">
+						<li> <span>Manufacturer:</span>Apple</li><br>
+						<li> <span>Storage:</span>16 GB</li>
+						<li> <span>OS:</span>iOS</li><br>
+						<li> <span>Camera:</span>8 Mpx</li>
+					</ul>
+					<button>Buy Now!</button>
+					<p class="productPrice">$399</p>
+				</li>
+
+			</ul>
+		</div>
+
+	</div>
+
+</body>
+
+</html>
